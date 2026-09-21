@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#081420"/><stop offset="100%" stop-color="#0E2943"/></linearGradient>
+<style>.l1{animation:a 8s infinite}.l2{animation:b 8s infinite}.l3{animation:c 8s infinite}.l4{animation:d 8s infinite}@keyframes a{0%,8%{opacity:0}12%,100%{opacity:1}}@keyframes b{0%,24%{opacity:0}28%,100%{opacity:1}}@keyframes c{0%,43%{opacity:0}47%,100%{opacity:1}}@keyframes d{0%,66%{opacity:0}70%,100%{opacity:1}}.cursor{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}</style></defs>
+<rect x="2" y="2" width="896" height="416" rx="24" fill="url(#g)" stroke="#1E4D73" stroke-width="4"/>
+<circle cx="38" cy="34" r="8" fill="#FF6B62"/><circle cx="66" cy="34" r="8" fill="#FFBD44"/><circle cx="94" cy="34" r="8" fill="#00CA4E"/>
+<text x="126" y="42" fill="#6689A5" font-family="Consolas,Menlo,monospace" font-size="19">dansons-machine — zsh</text>
+<g font-family="Consolas,Menlo,monospace" font-size="22"><text x="34" y="95" fill="#6AB7FF">$ whoami</text><text class="l1" x="34" y="132" fill="#FFFFFF">MUSHABE DANSON</text><text class="l2" x="34" y="188" fill="#6AB7FF">$ mission</text><text class="l2" x="34" y="225" fill="#D8E8F7">build intelligent systems for Africa</text><text class="l3" x="34" y="281" fill="#6AB7FF">$ deploy --focus</text><text class="l3" x="34" y="318" fill="#FF9A3D">AI  AUTOMATION  BUSINESS-SYSTEMS  WEB</text><text class="l4" x="34" y="374" fill="#54E69A">✓ systems online</text><rect class="cursor" x="250" y="354" width="12" height="25" fill="#54E69A"/></g>
+</svg>
