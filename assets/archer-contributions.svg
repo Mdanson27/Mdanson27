@@ -38,14 +38,14 @@
     @keyframes shot7{0%,66%{opacity:0;stroke-dashoffset:680}67%{opacity:1}74%{opacity:1;stroke-dashoffset:0}75%,100%{opacity:0;stroke-dashoffset:0}}
     @keyframes shot8{0%,77%{opacity:0;stroke-dashoffset:680}78%{opacity:1}85.7%{opacity:1;stroke-dashoffset:0}85.8%,100%{opacity:0;stroke-dashoffset:0}}
 
-    @keyframes t1{0%,7%{transform:none;opacity:1;fill:#36D876}8%{fill:#FF7A00}9%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t2{0%,15%{transform:none;opacity:1;fill:#36D876}16%{fill:#FF7A00}17%,76%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t3{0%,23%{transform:none;opacity:1;fill:#36D876}24%{fill:#FF7A00}25%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t4{0%,31%{transform:none;opacity:1;fill:#36D876}32%{fill:#FF7A00}33%,76%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t5{0%,39%{transform:none;opacity:1;fill:#36D876}40%{fill:#FF7A00}41%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t6{0%,47%{transform:none;opacity:1;fill:#36D876}48%{fill:#FF7A00}49%,76%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t7{0%,55%{transform:none;opacity:1;fill:#36D876}56%{fill:#FF7A00}57%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
-    @keyframes t8{0%,63%{transform:none;opacity:1;fill:#36D876}64%{fill:#FF7A00}65%,76%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
+    @keyframes t1{0%,7%{transform:none;opacity:1;fill:#36D876}8%{fill:#FF7A00}9%,100%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}}
+    @keyframes t2{0%,18%{transform:none;opacity:1;fill:#36D876}19%{fill:#FF7A00}20%,100%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}}
+    @keyframes t3{0%,29%{transform:none;opacity:1;fill:#36D876}30%{fill:#FF7A00}31%,100%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}}
+    @keyframes t4{0%,40%{transform:none;opacity:1;fill:#36D876}41%{fill:#FF7A00}42%,100%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}}
+    @keyframes t5{0%,51%{transform:none;opacity:1;fill:#36D876}52%{fill:#FF7A00}53%,100%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}}
+    @keyframes t6{0%,62%{transform:none;opacity:1;fill:#36D876}63%{fill:#FF7A00}64%,100%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}}
+    @keyframes t7{0%,73%{transform:none;opacity:1;fill:#36D876}74%{fill:#FF7A00}75%,100%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}}
+    @keyframes t8{0%,84.7%{transform:none;opacity:1;fill:#36D876}85.7%{fill:#FF7A00}85.8%,100%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}}
 
     .target{stroke:#B8FFE0;stroke-width:1.7;transform-box:fill-box;transform-origin:center}
     .draw{animation:draw 2s ease-in-out infinite}
