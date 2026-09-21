@@ -1,8 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#081420"/><stop offset="100%" stop-color="#0E2943"/></linearGradient>
-<style>.l1{animation:a 8s infinite}.l2{animation:b 8s infinite}.l3{animation:c 8s infinite}.l4{animation:d 8s infinite}@keyframes a{0%,8%{opacity:0}12%,100%{opacity:1}}@keyframes b{0%,24%{opacity:0}28%,100%{opacity:1}}@keyframes c{0%,43%{opacity:0}47%,100%{opacity:1}}@keyframes d{0%,66%{opacity:0}70%,100%{opacity:1}}.cursor{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}</style></defs>
-<rect x="2" y="2" width="896" height="416" rx="24" fill="url(#g)" stroke="#1E4D73" stroke-width="4"/>
-<circle cx="38" cy="34" r="8" fill="#FF6B62"/><circle cx="66" cy="34" r="8" fill="#FFBD44"/><circle cx="94" cy="34" r="8" fill="#00CA4E"/>
-<text x="126" y="42" fill="#6689A5" font-family="Consolas,Menlo,monospace" font-size="19">dansons-machine — zsh</text>
-<g font-family="Consolas,Menlo,monospace" font-size="22"><text x="34" y="95" fill="#6AB7FF">$ whoami</text><text class="l1" x="34" y="132" fill="#FFFFFF">MUSHABE DANSON</text><text class="l2" x="34" y="188" fill="#6AB7FF">$ mission</text><text class="l2" x="34" y="225" fill="#D8E8F7">build intelligent systems for Africa</text><text class="l3" x="34" y="281" fill="#6AB7FF">$ deploy --focus</text><text class="l3" x="34" y="318" fill="#FF9A3D">AI  AUTOMATION  BUSINESS-SYSTEMS  WEB</text><text class="l4" x="34" y="374" fill="#54E69A">✓ systems online</text><rect class="cursor" x="250" y="354" width="12" height="25" fill="#54E69A"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07111D"/>
+    <stop offset="100%" stop-color="#0D2A47"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#1687FF"/>
+    <stop offset="100%" stop-color="#FF7A00"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .mono{font-family:Consolas,Menlo,monospace}
+    .fade1{animation:f1 10s infinite}.fade2{animation:f2 10s infinite}.fade3{animation:f3 10s infinite}.fade4{animation:f4 10s infinite}.fade5{animation:f5 10s infinite}
+    @keyframes f1{0%,5%{opacity:0}8%,100%{opacity:1}}
+    @keyframes f2{0%,22%{opacity:0}25%,100%{opacity:1}}
+    @keyframes f3{0%,39%{opacity:0}42%,100%{opacity:1}}
+    @keyframes f4{0%,56%{opacity:0}59%,100%{opacity:1}}
+    @keyframes f5{0%,73%{opacity:0}76%,100%{opacity:1}}
+    .cursor{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+  </style>
+</defs>
+
+<rect x="2" y="2" width="996" height="466" rx="25" fill="url(#bg)" stroke="#214966" stroke-width="4"/>
+<rect x="2" y="2" width="996" height="58" rx="25" fill="#081522"/>
+<rect x="2" y="38" width="996" height="22" fill="#081522"/>
+<circle cx="34" cy="30" r="7" fill="#FF6B62"/>
+<circle cx="59" cy="30" r="7" fill="#FFBD44"/>
+<circle cx="84" cy="30" r="7" fill="#00CA4E"/>
+<text x="116" y="36" class="mono" fill="#718FA7" font-size="17">dansons-machine / mission-control</text>
+<circle cx="943" cy="30" r="5" fill="#47E790" class="pulse"/>
+<text x="955" y="35" class="mono" fill="#7EA2BB" font-size="13">LIVE</text>
+
+<rect x="28" y="84" width="944" height="1" fill="#18384F"/>
+<rect x="28" y="84" width="270" height="2" fill="url(#line)"/>
+
+<g class="mono" font-size="21">
+  <text x="34" y="126" fill="#68C0FF">$ whoami</text>
+  <text x="34" y="163" fill="#FFFFFF" class="fade1">MUSHABE DANSON</text>
+
+  <text x="34" y="213" fill="#68C0FF" class="fade2">$ role</text>
+  <text x="34" y="250" fill="#D9EBF8" class="fade2">Founder @ AutoMinds Africa</text>
+
+  <text x="34" y="300" fill="#68C0FF" class="fade3">$ focus --active</text>
+  <text x="34" y="337" fill="#FFAA5A" class="fade3">AI  AUTOMATION  BUSINESS-SYSTEMS  DIGITAL-PRODUCTS</text>
+
+  <text x="34" y="387" fill="#68C0FF" class="fade4">$ mission</text>
+  <text x="34" y="424" fill="#D9EBF8" class="fade4">build intelligent systems that make real work simpler</text>
+
+  <text x="734" y="126" fill="#7EA2BB" font-size="14">REGION</text>
+  <text x="734" y="151" fill="#FFFFFF" font-size="16">Kampala, Uganda</text>
+  <text x="734" y="196" fill="#7EA2BB" font-size="14">MODE</text>
+  <text x="734" y="221" fill="#48E790" font-size="16" class="pulse">BUILDING</text>
+  <text x="734" y="266" fill="#7EA2BB" font-size="14">PRINCIPLE</text>
+  <text x="734" y="291" fill="#FFFFFF" font-size="16">Systems &gt; repetition</text>
+  <text x="734" y="336" fill="#7EA2BB" font-size="14">STATUS</text>
+  <text x="734" y="361" fill="#FFFFFF" font-size="16" class="fade5">Ready to ship</text>
+</g>
+
+<rect class="cursor" x="292" y="407" width="11" height="22" fill="#48E790"/>
 </svg>
