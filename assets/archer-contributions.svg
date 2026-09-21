@@ -27,19 +27,17 @@
     .mono{font-family:Consolas,Menlo,monospace}
     .grid{stroke:#78BDF0;stroke-width:1;opacity:.075}
     .trace{fill:none;stroke:url(#energy);stroke-width:3;stroke-linecap:round;stroke-dasharray:680;stroke-dashoffset:680;opacity:0}
-    .shot1{animation:shot1 18s infinite}.shot2{animation:shot2 18s infinite}.shot3{animation:shot3 18s infinite}.shot4{animation:shot4 18s infinite}
-    .shot5{animation:shot5 18s infinite}.shot6{animation:shot6 18s infinite}.shot7{animation:shot7 18s infinite}.shot8{animation:shot8 18s infinite}
-    @keyframes shot1{0%,3%{opacity:0;stroke-dashoffset:680}4%{opacity:1}8%{opacity:1;stroke-dashoffset:0}9%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot2{0%,11%{opacity:0;stroke-dashoffset:680}12%{opacity:1}16%{opacity:1;stroke-dashoffset:0}17%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot3{0%,19%{opacity:0;stroke-dashoffset:680}20%{opacity:1}24%{opacity:1;stroke-dashoffset:0}25%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot4{0%,27%{opacity:0;stroke-dashoffset:680}28%{opacity:1}32%{opacity:1;stroke-dashoffset:0}33%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot5{0%,35%{opacity:0;stroke-dashoffset:680}36%{opacity:1}40%{opacity:1;stroke-dashoffset:0}41%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot6{0%,43%{opacity:0;stroke-dashoffset:680}44%{opacity:1}48%{opacity:1;stroke-dashoffset:0}49%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot7{0%,51%{opacity:0;stroke-dashoffset:680}52%{opacity:1}56%{opacity:1;stroke-dashoffset:0}57%,100%{opacity:0;stroke-dashoffset:0}}
-    @keyframes shot8{0%,59%{opacity:0;stroke-dashoffset:680}60%{opacity:1}64%{opacity:1;stroke-dashoffset:0}65%,100%{opacity:0;stroke-dashoffset:0}}
+    .shot1{animation:shot1 14s infinite}.shot2{animation:shot2 14s infinite}.shot3{animation:shot3 14s infinite}.shot4{animation:shot4 14s infinite}
+    .shot5{animation:shot5 14s infinite}.shot6{animation:shot6 14s infinite}.shot7{animation:shot7 14s infinite}.shot8{animation:shot8 14s infinite}
+    @keyframes shot1{0%,1%{opacity:0;stroke-dashoffset:680}2%{opacity:1}8%{opacity:1;stroke-dashoffset:0}9%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot2{0%,11%{opacity:0;stroke-dashoffset:680}12%{opacity:1}19%{opacity:1;stroke-dashoffset:0}20%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot3{0%,22%{opacity:0;stroke-dashoffset:680}23%{opacity:1}30%{opacity:1;stroke-dashoffset:0}31%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot4{0%,33%{opacity:0;stroke-dashoffset:680}34%{opacity:1}41%{opacity:1;stroke-dashoffset:0}42%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot5{0%,44%{opacity:0;stroke-dashoffset:680}45%{opacity:1}52%{opacity:1;stroke-dashoffset:0}53%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot6{0%,55%{opacity:0;stroke-dashoffset:680}56%{opacity:1}63%{opacity:1;stroke-dashoffset:0}64%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot7{0%,66%{opacity:0;stroke-dashoffset:680}67%{opacity:1}74%{opacity:1;stroke-dashoffset:0}75%,100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes shot8{0%,77%{opacity:0;stroke-dashoffset:680}78%{opacity:1}85.7%{opacity:1;stroke-dashoffset:0}85.8%,100%{opacity:0;stroke-dashoffset:0}}
 
-    .t1{animation:t1 18s infinite}.t2{animation:t2 18s infinite}.t3{animation:t3 18s infinite}.t4{animation:t4 18s infinite}
-    .t5{animation:t5 18s infinite}.t6{animation:t6 18s infinite}.t7{animation:t7 18s infinite}.t8{animation:t8 18s infinite}
     @keyframes t1{0%,7%{transform:none;opacity:1;fill:#36D876}8%{fill:#FF7A00}9%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
     @keyframes t2{0%,15%{transform:none;opacity:1;fill:#36D876}16%{fill:#FF7A00}17%,76%{transform:translateY(72px) rotate(-24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
     @keyframes t3{0%,23%{transform:none;opacity:1;fill:#36D876}24%{fill:#FF7A00}25%,76%{transform:translateY(72px) rotate(24deg);opacity:0;fill:#173247}77%,100%{transform:none;opacity:1;fill:#36D876}}
@@ -54,106 +52,7 @@
     @keyframes draw{0%,100%{transform:translateX(0)}50%{transform:translateX(-9px)}}
     .pulse{animation:pulse 1.8s ease-in-out infinite}
     @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
-    .complete{animation:complete 18s infinite}
-    @keyframes complete{0%,65%{opacity:0}66%,76%{opacity:1}77%,100%{opacity:0}}
-    .ready{animation:ready 18s infinite}
-    @keyframes ready{0%,64%{opacity:1}65%,76%{opacity:0}77%,100%{opacity:1}}
-  </style>
-</defs>
-
-<rect width="1400" height="520" rx="34" fill="url(#bg)"/>
-<circle cx="250" cy="280" r="240" fill="url(#halo)"/>
-
-<g class="grid">
-  <path d="M0 80H1400M0 160H1400M0 240H1400M0 320H1400M0 400H1400M0 480H1400"/>
-  <path d="M100 0V520M200 0V520M300 0V520M400 0V520M500 0V520M600 0V520M700 0V520M800 0V520M900 0V520M1000 0V520M1100 0V520M1200 0V520M1300 0V520"/>
-</g>
-
-<text x="66" y="67" class="txt" fill="#FFFFFF" font-size="34" font-weight="800">PRECISION SEQUENCE</text>
-<text x="66" y="101" class="txt" fill="#8EB7D7" font-size="18">Focus • consistency • execution — visualized as a contribution strike sequence.</text>
-
-<rect x="54" y="130" width="430" height="318" rx="25" fill="#091827" stroke="#244864"/>
-<rect x="516" y="130" width="830" height="318" rx="25" fill="#091827" stroke="#244864"/>
-
-<text x="84" y="172" class="mono" fill="#72C4FF" font-size="16">EXECUTION MODE</text>
-<text x="84" y="198" class="txt" fill="#CFE8F9" font-size="17" font-weight="700">ARCHER / SYSTEMS BUILDER</text>
-
-<!-- archer -->
-<g transform="translate(84 176)">
-  <circle cx="122" cy="116" r="96" fill="#0D2235" stroke="#214766"/>
-  <circle cx="122" cy="116" r="76" fill="none" stroke="#1A527B" opacity=".48"/>
-  <circle cx="105" cy="70" r="21" fill="#D9EAF7"/>
-  <path d="M94 93 C101 103 104 120 101 137 L93 196 C92 207 100 214 111 210 L138 196 C146 191 150 181 148 172 L143 143 C141 132 144 120 152 111 L170 91 C177 84 176 75 169 68 L164 64 C158 58 149 59 142 65 L121 84 C113 91 103 95 94 93 Z" fill="#D9EAF7"/>
-  <path d="M108 204 L88 266 C84 278 91 287 103 287 H116 C125 287 131 282 134 273 L145 224 Z" fill="#C7DDEF"/>
-  <path d="M139 201 L165 269 C169 280 179 284 190 279 L199 275 C208 271 211 260 206 251 L174 190 Z" fill="#BBD4E8"/>
-  <path d="M145 116 L193 104 C204 101 212 106 214 116 L216 125 C218 135 212 143 203 145 L158 155 Z" fill="#D9EAF7"/>
-  <g class="draw">
-    <path d="M222 50 C193 88 189 124 200 161 C210 195 234 223 276 246" fill="none" stroke="url(#energy)" stroke-width="8" stroke-linecap="round" filter="url(#smallGlow)"/>
-    <line x1="222" y1="50" x2="276" y2="246" stroke="#BDE7FF" stroke-width="2"/>
-    <line x1="250" y1="147" x2="159" y2="147" stroke="#EDF9FF" stroke-width="2.2"/>
-    <circle cx="159" cy="147" r="9" fill="#FF7A00" class="pulse" filter="url(#glow)"/>
-  </g>
-</g>
-
-<g class="ready">
-  <rect x="82" y="402" width="370" height="29" rx="14.5" fill="#10243A" stroke="#2A5573"/>
-  <circle cx="102" cy="416.5" r="5.5" fill="#46E58D" class="pulse"/>
-  <text x="118" y="421" class="mono" fill="#D7EDFF" font-size="13">LOCKED ON • SEQUENCE ACTIVE</text>
-</g>
-<g class="complete">
-  <rect x="82" y="402" width="370" height="29" rx="14.5" fill="#172438" stroke="#FF7A00"/>
-  <circle cx="102" cy="416.5" r="5.5" fill="#FF7A00" filter="url(#smallGlow)"/>
-  <text x="118" y="421" class="mono" fill="#FFE1C4" font-size="13">SEQUENCE COMPLETE • RESTART IN 2s</text>
-</g>
-
-<text x="552" y="172" class="mono" fill="#72C4FF" font-size="16">CONTRIBUTION TARGET GRID</text>
-<text x="552" y="199" class="txt" fill="#CFE8F9" font-size="17">Each hit represents focused output compounding into real systems.</text>
-
-<!-- background cells -->
-<g fill="#13293B" stroke="#25455E">
-  <rect x="796" y="148" width="28" height="28" rx="5"/><rect x="840" y="148" width="28" height="28" rx="5"/>
-  <rect x="884" y="148" width="28" height="28" rx="5"/><rect x="928" y="148" width="28" height="28" rx="5"/>
-  <rect x="972" y="148" width="28" height="28" rx="5"/><rect x="1016" y="148" width="28" height="28" rx="5"/>
-  <rect x="1060" y="148" width="28" height="28" rx="5"/><rect x="1104" y="148" width="28" height="28" rx="5"/>
-  <rect x="796" y="192" width="28" height="28" rx="5"/><rect x="840" y="192" width="28" height="28" rx="5"/>
-  <rect x="884" y="192" width="28" height="28" rx="5"/><rect x="928" y="192" width="28" height="28" rx="5"/>
-  <rect x="972" y="192" width="28" height="28" rx="5"/><rect x="1016" y="192" width="28" height="28" rx="5"/>
-  <rect x="1060" y="192" width="28" height="28" rx="5"/><rect x="1104" y="192" width="28" height="28" rx="5"/>
-  <rect x="796" y="236" width="28" height="28" rx="5"/><rect x="840" y="236" width="28" height="28" rx="5"/>
-  <rect x="884" y="236" width="28" height="28" rx="5"/><rect x="928" y="236" width="28" height="28" rx="5"/>
-  <rect x="972" y="236" width="28" height="28" rx="5"/><rect x="1016" y="236" width="28" height="28" rx="5"/>
-  <rect x="1060" y="236" width="28" height="28" rx="5"/><rect x="1104" y="236" width="28" height="28" rx="5"/>
-  <rect x="796" y="280" width="28" height="28" rx="5"/><rect x="840" y="280" width="28" height="28" rx="5"/>
-  <rect x="884" y="280" width="28" height="28" rx="5"/><rect x="928" y="280" width="28" height="28" rx="5"/>
-  <rect x="972" y="280" width="28" height="28" rx="5"/><rect x="1016" y="280" width="28" height="28" rx="5"/>
-  <rect x="1060" y="280" width="28" height="28" rx="5"/><rect x="1104" y="280" width="28" height="28" rx="5"/>
-</g>
-
-<!-- active targets -->
-<rect class="target t1" x="796" y="148" width="28" height="28" rx="5"/>
-<rect class="target t2" x="840" y="236" width="28" height="28" rx="5"/>
-<rect class="target t3" x="884" y="192" width="28" height="28" rx="5"/>
-<rect class="target t4" x="928" y="280" width="28" height="28" rx="5"/>
-<rect class="target t5" x="972" y="148" width="28" height="28" rx="5"/>
-<rect class="target t6" x="1016" y="236" width="28" height="28" rx="5"/>
-<rect class="target t7" x="1060" y="192" width="28" height="28" rx="5"/>
-<rect class="target t8" x="1104" y="280" width="28" height="28" rx="5"/>
-
-<!-- shots -->
-<path class="trace shot1" d="M347 323 Q570 260 810 162"/>
-<path class="trace shot2" d="M347 323 Q600 330 854 250"/>
-<path class="trace shot3" d="M347 323 Q625 285 898 206"/>
-<path class="trace shot4" d="M347 323 Q650 350 942 294"/>
-<path class="trace shot5" d="M347 323 Q675 245 986 162"/>
-<path class="trace shot6" d="M347 323 Q700 325 1030 250"/>
-<path class="trace shot7" d="M347 323 Q740 270 1074 206"/>
-<path class="trace shot8" d="M347 323 Q765 345 1118 294"/>
-
-<g class="complete">
-  <text x="784" y="379" class="mono" fill="#FFAA5C" font-size="16">8 / 8 TARGETS CLEARED</text>
-  <text x="784" y="406" class="txt" fill="#D7EDFF" font-size="19" font-weight="700">Precision compounds into progress.</text>
-</g>
-
-<text x="66" y="486" class="txt" fill="#7899B2" font-size="15">MUSHABE DANSON • AI • AUTOMATION • SYSTEMS</text>
-<text x="1060" y="486" class="txt" fill="#7899B2" font-size="15">AutoMinds Africa 🇺🇬</text>
-</svg>
+    .complete{animation:complete 14s infinite}
+    @keyframes complete{0%,85.6%{opacity:0}85.7%,100%{opacity:1}}
+    @keyframes ready{0%,85.6%{opacity:1}85.7%,100%{opacity:0}}
+    
