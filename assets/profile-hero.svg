@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050B14"/><stop offset="48%" stop-color="#092A4B"/><stop offset="100%" stop-color="#07101D"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1687FF"/><stop offset="48%" stop-color="#5AB4FF"/><stop offset="100%" stop-color="#FF7A00"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0%" stop-color="#1687FF" stop-opacity=".35"/><stop offset="100%" stop-color="#1687FF" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>.pulse{animation:p 3.4s ease-in-out infinite}.pulse2{animation:p 3.4s ease-in-out 1.1s infinite}.pulse3{animation:p 3.4s ease-in-out 2.2s infinite}@keyframes p{0%,100%{opacity:.18}50%{opacity:1}}.dash{stroke-dasharray:18 16;animation:d 8s linear infinite}@keyframes d{to{stroke-dashoffset:-136}}</style>
+</defs>
+<rect width="1400" height="500" rx="36" fill="url(#bg)"/><circle cx="1170" cy="118" r="250" fill="url(#halo)"/>
+<g opacity=".09" stroke="#8CCBFF"><path d="M0 80H1400M0 160H1400M0 240H1400M0 320H1400M0 400H1400"/><path d="M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500M800 0V500M900 0V500M1000 0V500M1100 0V500M1200 0V500M1300 0V500"/></g>
+<g fill="none" stroke="url(#beam)" stroke-width="3.5" opacity=".8" filter="url(#glow)"><path class="dash" d="M820 340C900 290 925 182 1015 176S1131 275 1210 224 1280 113 1351 133"/><path class="dash" d="M793 387C896 414 957 350 1040 363S1172 430 1317 349"/></g>
+<g><circle class="pulse" cx="1015" cy="176" r="9" fill="#1687FF"/><circle class="pulse2" cx="1210" cy="224" r="9" fill="#FF7A00"/><circle class="pulse3" cx="1040" cy="363" r="8" fill="#52AFFF"/><circle class="pulse" cx="1317" cy="349" r="7" fill="#FF7A00"/></g>
+<text x="82" y="96" fill="#67B9FF" font-family="Arial,Segoe UI,sans-serif" font-size="22" font-weight="700" letter-spacing="5">AI • AUTOMATION • SYSTEMS</text>
+<text x="80" y="204" fill="#FFFFFF" font-family="Arial,Segoe UI,sans-serif" font-size="78" font-weight="800">MUSHABE DANSON</text>
+<rect x="82" y="239" width="220" height="6" rx="3" fill="url(#beam)"/>
+<text x="82" y="302" fill="#D7E9FA" font-family="Arial,Segoe UI,sans-serif" font-size="27" font-weight="600">Founder — AutoMinds Africa</text>
+<text x="82" y="350" fill="#9CB9D3" font-family="Arial,Segoe UI,sans-serif" font-size="22">Building intelligent systems that remove friction from real work.</text>
+<g transform="translate(82 405)"><rect width="335" height="50" rx="25" fill="#0B233B" stroke="#225D8D"/><circle cx="26" cy="25" r="7" fill="#42E58B" class="pulse"/><text x="45" y="32" fill="#D9ECFF" font-family="Arial,Segoe UI,sans-serif" font-size="18" font-weight="700">SYSTEM STATUS: BUILDING</text></g>
+</svg>
